@@ -12,6 +12,8 @@ function App() {
     }
   });
 
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
@@ -38,12 +40,35 @@ function App() {
     setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
   };
 
+  useEffect(() => {
+    // Simulate loading delay
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); // 1 second delay, adjust as needed
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div id="preloader">
+        <div className="jumper">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <main>
-      <button id="toggle-theme" onClick={toggleTheme}>☀</button>
-      <Aside />
-      <MainContent />
-    </main>
+    <>
+      <main>
+        <button id="toggle-theme" onClick={toggleTheme}>☀</button>
+        <Aside />
+        <MainContent />
+      </main>
+    </>
   );
 }
 
