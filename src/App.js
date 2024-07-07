@@ -11,27 +11,31 @@ function App() {
       return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     }
   });
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Apply theme to document
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
+    // Save theme to localStorage
     localStorage.setItem('theme', theme);
   }, [theme]);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     const handleChange = (e) => {
-      if (!localStorage.getItem('theme')) {
-        setTheme(e.matches ? 'dark' : 'light');
-      }
+      // Update theme based on system preference
+      setTheme(e.matches ? 'dark' : 'light');
     };
+
+    // Listen for changes to the system theme
     mediaQuery.addEventListener('change', handleChange);
+
     return () => {
+      // Cleanup listener on unmount
       mediaQuery.removeEventListener('change', handleChange);
     };
   }, []);
