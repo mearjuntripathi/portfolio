@@ -1042,13 +1042,13 @@ main {
 
 .company-name {
   font-size: 1.1em;
-  font-weight: normal;
+  font-weight: bold;
   color: var(--light-gray); /* Lighter shade for company name */
 }
 
 .position {
   font-size: 1em;
-  font-weight: bold;
+  font-weight: normal;
   color: var(--light-gray)#fff; /* Highlight the job title */
 }
 
