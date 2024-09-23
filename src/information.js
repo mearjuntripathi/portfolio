@@ -116,17 +116,14 @@ const ResumeData = {
         {
             companyName: "Chandigarh University",
             jobTitle: "Technical Trainer",
-            session: "July 2022 — Nov 2022",
-            about: `I learn allot with this company and understand team work, every employee help me when i face problem and
-                I understand how to test APIs and and to attend meetings and understand working process of productions.
-                I enhanced my communication skills there, and knowledge skill. I learn allot with this company and
-                understand team work, every employee help me when i face problem and I under stand how to test APIs and
-                and to attend meetings and understand working process of productions. I enhanced my communication skills
-                there, and knowledge skill.
+            session: "July 2024 — Present",
+            about: `As a Technical Trainer, I teach students the fundamentals of Data Structures and Algorithms (DSA), 
+                    providing hands-on training and in-depth knowledge of web technologies, particularly the MERN stack. 
+                    I guide students through project development, from building applications to deploying them using Docker, 
+                    and testing APIs using Postman. 
+                    My role involves ensuring students understand the practical aspects of these technologies and their application in real-world scenarios.
                 <br>
-                <b>Skills</b>: GitHub · Go (Programming Language) · postman · JSON · gRPC · Git · Communication ·
-                Problem
-                Solving · Zapier · MySQL · Gitlab · REST APIs`
+                <b>Skills</b>: C++ · JAVA · JavaScript · GitHub · MERN Stack · Postman · JSON · gRPC · Git · Communication · Problem Solving · Zapier · MySQL · Gitlab · REST APIs`
         },
         {
             companyName: "Rhizicube",
@@ -139,9 +136,7 @@ const ResumeData = {
                 and to attend meetings and understand working process of productions. I enhanced my communication skills
                 there, and knowledge skill.
                 <br>
-                <b>Skills</b>: GitHub · Go (Programming Language) · postman · JSON · gRPC · Git · Communication ·
-                Problem
-                Solving · Zapier · MySQL · Gitlab · REST APIs`
+                <b>Skills</b>: GitHub · Go (Programming Language) · Postman · JSON · gRPC · Git · Communication · Problem Solving · Zapier · MySQL · Gitlab · REST APIs`
         }
     ],
     Education: [
