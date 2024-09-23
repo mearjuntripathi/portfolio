@@ -970,6 +970,7 @@ main {
   margin-bottom: 30px;
 }
 
+
 .timeline .title-wrapper {
   display: flex;
   align-items: center;
@@ -996,7 +997,7 @@ main {
   margin-bottom: 7px;
 }
 
-.timeline-list span {
+.timeline-session {
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
   line-height: 1.6;
@@ -1028,6 +1029,27 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: var(--light-gray);
+  align-items: center;
+  margin-bottom: 8px; 
+}
+
+.company-name {
+  font-size: 1em;
+  font-weight: normal;
+  color: var(--light-gray); /* Lighter shade for company name */
+}
+
+.position {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: var(--light-gray)#fff; /* Highlight the job title */
 }
 
 
@@ -1074,7 +1096,6 @@ main {
   border-radius: 10px;
   background-color: var(--smoky-black);
 }
-
 
 
 /*-----------------------------------*\
@@ -1254,9 +1275,6 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
-
-
-
 
 
 /*-----------------------------------*\

@@ -21,6 +21,7 @@ import project14Image from './images/project-14.png';
 import project15Image from './images/project-15.png';
 import project16Image from './images/project-16.png';
 import project17Image from './images/project-17.png';
+import project18Image from './images/project-18.png';
 
 const Introduction = {
     name: 'Arjun Tripathi',
@@ -113,7 +114,23 @@ const AboutMe = {
 const ResumeData = {
     Experience: [
         {
-            title: "Software Engineer Intern",
+            companyName: "Chandigarh University",
+            jobTitle: "Technical Trainer",
+            session: "July 2022 — Nov 2022",
+            about: `I learn allot with this company and understand team work, every employee help me when i face problem and
+                I understand how to test APIs and and to attend meetings and understand working process of productions.
+                I enhanced my communication skills there, and knowledge skill. I learn allot with this company and
+                understand team work, every employee help me when i face problem and I under stand how to test APIs and
+                and to attend meetings and understand working process of productions. I enhanced my communication skills
+                there, and knowledge skill.
+                <br>
+                <b>Skills</b>: GitHub · Go (Programming Language) · postman · JSON · gRPC · Git · Communication ·
+                Problem
+                Solving · Zapier · MySQL · Gitlab · REST APIs`
+        },
+        {
+            companyName: "Rhizicube",
+            jobTitle: "Software Engineer Intern",
             session: "July 2022 — Nov 2022",
             about: `I learn allot with this company and understand team work, every employee help me when i face problem and
                 I understand how to test APIs and and to attend meetings and understand working process of productions.
@@ -265,6 +282,12 @@ const Project = [
         pic: project15Image,
         link: "https://github.com/mearjuntripathi/book-management-api/",
         category: "apis"
+    },
+    {
+        title: "Rich Text Editor",
+        pic: project18Image,
+        link: "https://mearjuntripathi.github.io/blog-writer/",
+        category: "web development"
     }
 ];
 

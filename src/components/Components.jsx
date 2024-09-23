@@ -237,15 +237,28 @@ function TestimonialModel(props) {
 
 
 function TimelineItem(props) {
-    return <li className="timeline-item">
+    return (
+        <li className="timeline-item">
+            {
+                props.title ? (
+                    <h4 className="h4 timeline-item-title">{props.title}</h4>
+                ) : (
+                    <div className="job-header">
+                        <span className="company-name">{props.companyName}</span>
+                        <span className="position">{props.jobTitle}</span>
+                    </div>
+                )
+            }
+            <span className="timeline-session">{props.session}</span>
 
-        <h4 className="h4 timeline-item-title">{props.title}</h4>
-
-        <span>{props.session}</span>
-
-        <p className="timeline-text" dangerouslySetInnerHTML={{ __html: props.about }} />
-    </li>;
+            <p
+                className="timeline-text"
+                dangerouslySetInnerHTML={{ __html: props.about }}
+            />
+        </li>
+    );
 }
+
 
 function SkillItem(props) {
     return <li className="skills-item">
@@ -283,4 +296,4 @@ function ProjectItem(props) {
     </li>
 }
 
-export { SidebarInfo, SidebarInfoMore, NavBar, ServiceIconBox, TestimonialItem, TestimonialModel, TimelineItem, SkillItem, ProjectItem}
+export { SidebarInfo, SidebarInfoMore, NavBar, ServiceIconBox, TestimonialItem, TestimonialModel, TimelineItem, SkillItem, ProjectItem }
