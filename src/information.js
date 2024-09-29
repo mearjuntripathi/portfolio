@@ -65,7 +65,7 @@ const AboutMe = {
             foundation and hands-on
             experience, I am well-equipped to tackle complex software engineering challenges.
           </p>`,
-    resume: "https://drive.google.com/file/d/1jlfauLNdYwaMbr0ACpIi7Oja-qyt2fGw/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1AU0YVDIEhOKu_g-yi-7DXbseyWCpQkl6/view?usp=sharing",
 
     service: [
         {
