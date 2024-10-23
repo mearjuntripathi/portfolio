@@ -1,6 +1,7 @@
 import { Introduction, SocialAccount } from "../information"
 import { elementToggleFunc } from "../function";
 import quotepic from "../images/icon-quote.svg";
+import { useState } from 'react';
 
 // View Sidebar
 
@@ -39,7 +40,7 @@ function ContactItem(props) {
             <div className="contact-info">
                 <p className="contact-title">{props.name}</p>
                 {props.link ? (
-                    <a target="_blank" href={props.link} className="contact-link">{props.displayText}</a>
+                    <a href={props.link} target="_blank" rel="noreferrer" className="contact-link">{props.displayText}</a>
                 ) : props.time ? (
                     <time dateTime={props.dateTime}>{props.displayText}</time>
                 ) : props.address ? (
@@ -57,7 +58,7 @@ function ContactItem(props) {
 
 function SocialItem(props) {
     return <li className="social-item">
-        <a target="_blank" href={props.link} className="social-link">
+        <a  href={props.link} target="_blank" rel="noreferrer" className="social-link">
             <ion-icon name={props.icon}></ion-icon>
         </a>
     </li>
@@ -277,23 +278,68 @@ function SkillItem(props) {
 }
 
 function ProjectItem(props) {
-    return <li className="project-item  active" data-filter-item data-category="programming">
-        <a href={props.link} target="_blank">
+    const [showPopup, setShowPopup] = useState(false);
 
-            <figure className="project-img">
-                <div className="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                </div>
+    const openPopup = () => setShowPopup(true);
+    const closePopup = () => setShowPopup(false);
 
-                <img src={props.pic} alt={props.title} loading="lazy" />
-            </figure>
+    return (
+        <>
+            <li className="project-item active" onClick={openPopup}>
+                <figure className="project-img">
+                    <img src={props.pic} alt={props.title} loading="lazy" />
+                </figure>
+                <h3 className="project-title">{props.title}</h3>
+                <p className="project-category">{props.category}</p>
+            </li>
 
-            <h3 className="project-title">{props.title}</h3>
-
-            <p className="project-category">{props.category}</p>
-
-        </a>
-    </li>
+            {showPopup && (
+                <ProjectPopup
+                    {...props}
+                    onClose={closePopup}
+                />
+            )}
+        </>
+    );
 }
 
-export { SidebarInfo, SidebarInfoMore, NavBar, ServiceIconBox, TestimonialItem, TestimonialModel, TimelineItem, SkillItem, ProjectItem }
+function ProjectPopup({ title, pic, description, skills, link, codeLink, onClose }) {
+    return (
+        <div className="popup-overlay">
+            <div className="popup-content">
+                <button className="popup-close" onClick={onClose}>
+                    &times; close
+                </button>
+                <img className="popup-image" src={pic} alt={title} />
+                <div className="popup-details">
+                    <h2 className="popup-title">{title}</h2>
+                    <hr />
+                    <p className="popup-description">{description}</p>
+                    <hr />
+                    {skills && (
+                        <h4 className="popup-skills">
+                            Skills Used:
+                            <div className="skill-progress-bg">
+                                {skills.map((item) => (
+                                    <span className="skills" key={item}>{item}</span>
+                                ))}
+                            </div>
+                        </h4>
+                    )}
+                    <div className="popup-links">
+                        <a href={link} target="_blank" rel="noreferrer" className="popup-link">
+                            Open Project
+                        </a>
+                        {codeLink && (
+                            <a href={codeLink} target="_blank" rel="noreferrer" className="popup-link">
+                                View Code
+                            </a>
+                        )}
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export { SidebarInfo, SidebarInfoMore, NavBar, ServiceIconBox, TestimonialItem, TestimonialModel, TimelineItem, SkillItem, ProjectItem, ProjectPopup }

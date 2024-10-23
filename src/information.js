@@ -180,109 +180,128 @@ const Project = [
         title: "Gapshap",
         pic: project1Image,
         link: "https://replit.com/@mearjuntripathi/gapshap?v=1",
-        category: "web development"
+        category: "web development",
+        skills: ["Node.js",  "Express.js", "MongoDB", "React.js", "Socket.io"],
+        description: `This is a simple chat application using Node.js, Express, and Socket.IO. The application allows users to join a chat room, send messages to all users, and send private messages to specific users.`
     },
     {
         title: "Chat ON",
         pic: project2Image,
         link: "https://greatchatson.000webhostapp.com/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "ChatBot",
         pic: project3Image,
         link: "https://mearjuntripathi.github.io/chatbot/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "DORA",
         pic: project4Image,
         link: "https://mearjuntripathi.github.io/dora/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "Stranger",
         pic: project5Image,
         link: "https://mearjuntripathi.github.io/stranger/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "Calculator",
         pic: project6Image,
         link: "https://mearjuntripathi.github.io/calculator/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "ImagetoPDF",
         pic: project7Image,
         link: "https://mearjuntripathi.github.io/imagetopdf/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "To-Do list",
         pic: project8Image,
         link: "https://mearjuntripathi.github.io/TO-DO%20list/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "Tic Tac Toe",
         pic: project9Image,
         link: "https://mearjuntripathi.github.io/tictactoe/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "Code Editor",
         pic: project10Image,
         link: "https://mearjuntripathi.github.io/codeeditor/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "DSA",
         pic: project11Image,
         link: "https://github.com/mearjuntripathi/Data_Structure_Algorithm",
-        category: "programming"
+        category: "programming",
+        description: ``
     },
     {
         title: "Chat Room",
         pic: project12Image,
         link: "https://github.com/mearjuntripathi/Java/tree/main/Chat-Room",
-        category: "programming"
+        category: "programming",
+        description: ``
     },
     {
         title: "Rest API",
         pic: project13Image,
         link: "https://github.com/mearjuntripathi/nodejs/tree/main/crud-RESTAPI",
-        category: "apis"
+        category: "apis",
+        description: ``
     },
     {
         title: "Testhub",
         pic: project14Image,
         link: "https://explorer-app.github.io/testhub/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "Admin Panel",
         pic: project16Image,
         link: "https://mearjuntripathi.github.io/Admin-Panel/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "Dinesh Rana Enterprises",
         pic: project17Image,
         link: "http://dineshranaenterprises.in/",
-        category: "web development"
+        category: "web development",
+        description: ``
     },
     {
         title: "Book Management API",
         pic: project15Image,
         link: "https://github.com/mearjuntripathi/book-management-api/",
-        category: "apis"
+        category: "apis",
+        description: ``
     },
     {
         title: "Rich Text Editor",
         pic: project18Image,
         link: "https://mearjuntripathi.github.io/blog-writer/",
-        category: "web development"
+        category: "web development",
+        description: ``
     }
 ];
 
