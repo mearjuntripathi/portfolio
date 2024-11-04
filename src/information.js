@@ -182,128 +182,144 @@ const Project = [
         link: "https://replit.com/@mearjuntripathi/gapshap?v=1",
         category: "web development",
         skills: ["Node.js",  "Express.js", "MongoDB", "React.js", "Socket.io"],
-        description: `This is a simple chat application using Node.js, Express, and Socket.IO. The application allows users to join a chat room, send messages to all users, and send private messages to specific users.`
+        description: `A chat application using Node.js, Express, and Socket.IO. Users can join a chat room, send messages to all users, or send private messages.`
     },
     {
         title: "Chat ON",
         pic: project2Image,
         link: "https://greatchatson.000webhostapp.com/",
         category: "web development",
-        description: ``
+        skills: ["PHP", "MySQL", "jQuery"],
+        description: `A chat website built without Socket.IO, using PHP, MySQL, and jQuery for real-time communication.`
     },
     {
         title: "ChatBot",
         pic: project3Image,
         link: "https://mearjuntripathi.github.io/chatbot/",
         category: "web development",
-        description: ``
+        skills: ["JavaScript", "OpenAI API", "AJAX"],
+        description: `ChatBot leverages the OpenAI API to access ChatGPT. It has a terminal interface for requests via AJAX using JavaScript.`
     },
     {
         title: "DORA",
         pic: project4Image,
         link: "https://mearjuntripathi.github.io/dora/",
         category: "web development",
-        description: ``
+        skills: ["JavaScript", "Wikipedia API", "Voice Recognition"],
+        description: `An interactive app that uses the Wikipedia API and voice recognition to search and provide detailed information from Wikipedia.`
     },
     {
         title: "Stranger",
         pic: project5Image,
         link: "https://mearjuntripathi.github.io/stranger/",
         category: "web development",
-        description: ``
+        skills: ["JavaScript", "Scaledrone API"],
+        description: `A Google Meet-like chat app using Scaledrone API for real-time two-person chat with unique key generation.`
     },
     {
         title: "Calculator",
         pic: project6Image,
         link: "https://mearjuntripathi.github.io/calculator/",
         category: "web development",
-        description: ``
+        skills: ["HTML", "CSS", "JavaScript"],
+        description: `A basic calculator built with HTML, CSS, and JavaScript for essential arithmetic operations.`
     },
     {
         title: "ImagetoPDF",
         pic: project7Image,
         link: "https://mearjuntripathi.github.io/imagetopdf/",
         category: "web development",
-        description: ``
+        skills: ["JavaScript", "PDF.js"],
+        description: `Converts images to PDF files using JavaScript and PDF.js for simple image-to-document transformations.`
     },
     {
-        title: "To-Do list",
+        title: "To-Do List",
         pic: project8Image,
         link: "https://mearjuntripathi.github.io/TO-DO%20list/",
         category: "web development",
-        description: ``
+        skills: ["HTML", "CSS", "JavaScript"],
+        description: `A basic To-Do list application that allows users to add, delete, and manage tasks.`
     },
     {
         title: "Tic Tac Toe",
         pic: project9Image,
         link: "https://mearjuntripathi.github.io/tictactoe/",
         category: "web development",
-        description: ``
+        skills: ["JavaScript", "Socket.IO"],
+        description: `A two-player Tic Tac Toe game with both local and online play options using the minimax algorithm for AI and Socket.IO for remote play.`
     },
     {
         title: "Code Editor",
         pic: project10Image,
         link: "https://mearjuntripathi.github.io/codeeditor/",
         category: "web development",
-        description: ``
+        skills: ["JavaScript", "Compiler API"],
+        description: `An online code editor supporting multiple languages via a compiler API, providing an in-browser coding experience.`
     },
     {
         title: "DSA",
         pic: project11Image,
         link: "https://github.com/mearjuntripathi/Data_Structure_Algorithm",
         category: "programming",
-        description: ``
+        skills: ["Java", "Data Structures", "Algorithms"],
+        description: `A comprehensive repository of data structures and algorithms with a variety of questions and solutions.`
     },
     {
         title: "Chat Room",
         pic: project12Image,
         link: "https://github.com/mearjuntripathi/Java/tree/main/Chat-Room",
         category: "programming",
-        description: ``
+        skills: ["Java", "WebSocket"],
+        description: `A chat application using Java and WebSockets, allowing real-time communication via terminal.`
     },
     {
-        title: "Rest API",
+        title: "REST API",
         pic: project13Image,
         link: "https://github.com/mearjuntripathi/nodejs/tree/main/crud-RESTAPI",
         category: "apis",
-        description: ``
+        skills: ["Node.js", "Express.js"],
+        description: `A basic CRUD REST API in Node.js and Express, demonstrating essential API development without a database.`
     },
     {
         title: "Testhub",
         pic: project14Image,
         link: "https://explorer-app.github.io/testhub/",
         category: "web development",
-        description: ``
+        skills: ["Node.js", "React.js", "MySQL"],
+        description: `A test platform for online exams with features to minimize cheating, using MySQL, Node, and React.`
     },
     {
         title: "Admin Panel",
         pic: project16Image,
         link: "https://mearjuntripathi.github.io/Admin-Panel/",
         category: "web development",
-        description: ``
+        skills: ["HTML", "CSS", "JavaScript", "IconScout"],
+        description: `A dummy admin panel built with HTML, CSS, and JavaScript featuring layout design and icons from IconScout.`
     },
     {
         title: "Dinesh Rana Enterprises",
         pic: project17Image,
         link: "http://dineshranaenterprises.in/",
         category: "web development",
-        description: ``
+        skills: ["PHP", "MySQL", "SEO"],
+        description: `A freelancing project involving SEO optimization, PHP, MySQL, and a customized admin panel with authentication.`
     },
     {
         title: "Book Management API",
         pic: project15Image,
         link: "https://github.com/mearjuntripathi/book-management-api/",
         category: "apis",
-        description: ``
+        skills: ["Node.js", "JWT", "MVC"],
+        description: `An API for book management built with Node.js, following MVC architecture with JWT for secure authentication.`
     },
     {
         title: "Rich Text Editor",
         pic: project18Image,
         link: "https://mearjuntripathi.github.io/blog-writer/",
         category: "web development",
-        description: ``
+        skills: ["JavaScript", "HTML", "CSS"],
+        description: `A rich text editor with functionalities similar to Microsoft Word, supporting text formatting and customization.`
     }
 ];
-
 
 export { Introduction, SocialAccount, AboutMe, ResumeData, Project }
