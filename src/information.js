@@ -3,7 +3,6 @@ import design from "./images/icon-design.svg";
 import dev from "./images/icon-dev.svg";
 import api from "./images/icon-api.svg";
 import cloud from "./images/icon-cloud.svg";
-import avatar from "./images/avatar-1.png";
 import project1Image from './images/project-1.png';
 import project2Image from './images/project-2.png';
 import project3Image from './images/project-3.png';
@@ -22,6 +21,9 @@ import project15Image from './images/project-15.png';
 import project16Image from './images/project-16.png';
 import project17Image from './images/project-17.png';
 import project18Image from './images/project-18.png';
+const dineshrana_avatar = 'https://dineshranaenterprises.in/assets/images/icon.png';
+const cu_avatar = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIvdkDsEN0-BB5WdM3CfdnaxE5O4FDSEioQ&s';
+const rhizicube_avatar = 'https://static.wixstatic.com/media/59608f_e7489f65315d4dc9be121b7dc56d9302~mv2.jpg/v1/fill/w_81,h_81,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/White-Insta-profile-image.jpg'
 
 const Introduction = {
     name: 'Arjun Tripathi',
@@ -92,22 +94,27 @@ const AboutMe = {
 
     testimonial: [
         {
-            name: "Dinesh Rana",
-            pic: avatar,
+            name: "Chandigarh University",
+            pic: cu_avatar,
             dateTime: "2024-03-15",
-            displayDate: "15 March, 2024",
-            about: `Arjun was hired to create a our company portfolio. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client. He create is whole portfolio and it admin panel with great design and fnctionality, We are so happly with our work.`
+            displayDate: "29 October, 2024",
+            about: `Arjun was engaged to train our students in <b>Data Structures and Algorithms (DSA)</b>, <b>Web Technology</b>, <b>API Development</b>, and <b>Cloud Computing</b>. His hands-on approach and practical insights significantly enhanced students' understanding. Arjun's ability to simplify complex concepts and ensure clarity for our students has been invaluable, and we appreciate his dedication to fostering real-world skills in technology.`
         },
         {
-            name: "Udit Sarin",
-            pic: avatar,
+            name: "Dinesh Rana",
+            pic: dineshrana_avatar,
+            dateTime: "2024-03-15",
+            displayDate: "15 March, 2024",
+            about: `We hired Arjun to develop our company portfolio, and his work exceeded expectations. With a deep understanding of design and functionality, he crafted a comprehensive portfolio and an intuitive admin panel that perfectly aligns with our brand. Arjun’s commitment to client satisfaction, attention to detail, and expertise made the project a success. We couldn't be happier with the results.`
+        },
+        {
+            name: "Rhizicube",
+            pic: rhizicube_avatar,
             dateTime: "2022-11-22",
             displayDate: "22 Nov, 2022",
-            about: `Rhizicube a place where Arjun work as a <b>Software Engineer Intern</b> where he done a various things realated <b> Creating APIs</b>, and <b>Tesing APIs</b> team management.`
+            about: `As a <b>Software Engineer Intern</b> at Rhizicube, Arjun made a meaningful impact on our team. He contributed extensively to <b>API Development</b> and <b>Testing</b>, showcasing his technical proficiency and dedication to high standards. Arjun’s collaborative skills and proactive approach were a great asset, making him a highly valued member of our team.`
         }
-
-    ]
-
+    ]    
 }
 
 
