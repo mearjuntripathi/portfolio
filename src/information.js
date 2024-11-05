@@ -187,6 +187,7 @@ const Project = [
         title: "Gapshap",
         pic: project1Image,
         link: "https://replit.com/@mearjuntripathi/gapshap?v=1",
+        codeLink: 'https://github.com/mearjuntripathi/Gapshap',
         category: "web development",
         skills: ["Node.js",  "Express.js", "MongoDB", "React.js", "Socket.io"],
         description: `A chat application using Node.js, Express, and Socket.IO. Users can join a chat room, send messages to all users, or send private messages.`
@@ -195,6 +196,7 @@ const Project = [
         title: "Chat ON",
         pic: project2Image,
         link: "https://greatchatson.000webhostapp.com/",
+        codeLink: 'https://github.com/mearjuntripathi/PHP/tree/main/chat_on',
         category: "web development",
         skills: ["PHP", "MySQL", "jQuery"],
         description: `A chat website built without Socket.IO, using PHP, MySQL, and jQuery for real-time communication.`
@@ -203,6 +205,7 @@ const Project = [
         title: "ChatBot",
         pic: project3Image,
         link: "https://mearjuntripathi.github.io/chatbot/",
+        codeLink: 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/chatbot',
         category: "web development",
         skills: ["JavaScript", "OpenAI API", "AJAX"],
         description: `ChatBot leverages the OpenAI API to access ChatGPT. It has a terminal interface for requests via AJAX using JavaScript.`
@@ -211,6 +214,7 @@ const Project = [
         title: "DORA",
         pic: project4Image,
         link: "https://mearjuntripathi.github.io/dora/",
+        codeLink:  'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/dora',
         category: "web development",
         skills: ["JavaScript", "Wikipedia API", "Voice Recognition"],
         description: `An interactive app that uses the Wikipedia API and voice recognition to search and provide detailed information from Wikipedia.`
@@ -219,6 +223,7 @@ const Project = [
         title: "Stranger",
         pic: project5Image,
         link: "https://mearjuntripathi.github.io/stranger/",
+        codeLink: 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/stranger',
         category: "web development",
         skills: ["JavaScript", "Scaledrone API"],
         description: `A Google Meet-like chat app using Scaledrone API for real-time two-person chat with unique key generation.`
@@ -227,6 +232,7 @@ const Project = [
         title: "Calculator",
         pic: project6Image,
         link: "https://mearjuntripathi.github.io/calculator/",
+        codeLink: 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/calculator',
         category: "web development",
         skills: ["HTML", "CSS", "JavaScript"],
         description: `A basic calculator built with HTML, CSS, and JavaScript for essential arithmetic operations.`
@@ -235,6 +241,7 @@ const Project = [
         title: "ImagetoPDF",
         pic: project7Image,
         link: "https://mearjuntripathi.github.io/imagetopdf/",
+        codeLink: 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/imagetopdf',
         category: "web development",
         skills: ["JavaScript", "PDF.js"],
         description: `Converts images to PDF files using JavaScript and PDF.js for simple image-to-document transformations.`
@@ -243,6 +250,7 @@ const Project = [
         title: "To-Do List",
         pic: project8Image,
         link: "https://mearjuntripathi.github.io/TO-DO%20list/",
+        codeLink : 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/TO-DO%20list',
         category: "web development",
         skills: ["HTML", "CSS", "JavaScript"],
         description: `A basic To-Do list application that allows users to add, delete, and manage tasks.`
@@ -251,6 +259,7 @@ const Project = [
         title: "Tic Tac Toe",
         pic: project9Image,
         link: "https://mearjuntripathi.github.io/tictactoe/",
+        codeLink: 'https://github.com/mearjuntripathi/Tic-Tac-Toe/tree/master',
         category: "web development",
         skills: ["JavaScript", "Socket.IO"],
         description: `A two-player Tic Tac Toe game with both local and online play options using the minimax algorithm for AI and Socket.IO for remote play.`
@@ -259,6 +268,7 @@ const Project = [
         title: "Code Editor",
         pic: project10Image,
         link: "https://mearjuntripathi.github.io/codeeditor/",
+        codeLink: 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/codeeditor',
         category: "web development",
         skills: ["JavaScript", "Compiler API"],
         description: `An online code editor supporting multiple languages via a compiler API, providing an in-browser coding experience.`
@@ -266,7 +276,7 @@ const Project = [
     {
         title: "DSA",
         pic: project11Image,
-        link: "https://github.com/mearjuntripathi/Data_Structure_Algorithm",
+        codeLink: "https://github.com/mearjuntripathi/Data_Structure_Algorithm",
         category: "programming",
         skills: ["Java", "Data Structures", "Algorithms"],
         description: `A comprehensive repository of data structures and algorithms with a variety of questions and solutions.`
@@ -274,7 +284,7 @@ const Project = [
     {
         title: "Chat Room",
         pic: project12Image,
-        link: "https://github.com/mearjuntripathi/Java/tree/main/Chat-Room",
+        codeLink: "https://github.com/mearjuntripathi/Java/tree/main/Chat-Room",
         category: "programming",
         skills: ["Java", "WebSocket"],
         description: `A chat application using Java and WebSockets, allowing real-time communication via terminal.`
@@ -282,7 +292,7 @@ const Project = [
     {
         title: "REST API",
         pic: project13Image,
-        link: "https://github.com/mearjuntripathi/nodejs/tree/main/crud-RESTAPI",
+        codeLink: "https://github.com/mearjuntripathi/nodejs/tree/main/crud-RESTAPI",
         category: "apis",
         skills: ["Node.js", "Express.js"],
         description: `A basic CRUD REST API in Node.js and Express, demonstrating essential API development without a database.`
@@ -291,6 +301,7 @@ const Project = [
         title: "Testhub",
         pic: project14Image,
         link: "https://explorer-app.github.io/testhub/",
+        codeLink : "https://github.com/mearjuntripathi/Testhub-server",
         category: "web development",
         skills: ["Node.js", "React.js", "MySQL"],
         description: `A test platform for online exams with features to minimize cheating, using MySQL, Node, and React.`
@@ -299,6 +310,7 @@ const Project = [
         title: "Admin Panel",
         pic: project16Image,
         link: "https://mearjuntripathi.github.io/Admin-Panel/",
+        codeLink: "https://github.com/mearjuntripathi/Admin-Panel",
         category: "web development",
         skills: ["HTML", "CSS", "JavaScript", "IconScout"],
         description: `A dummy admin panel built with HTML, CSS, and JavaScript featuring layout design and icons from IconScout.`
@@ -307,6 +319,7 @@ const Project = [
         title: "Dinesh Rana Enterprises",
         pic: project17Image,
         link: "http://dineshranaenterprises.in/",
+        codeLink : "https://github.com/rahuldurgapal/Interior-Project",
         category: "web development",
         skills: ["PHP", "MySQL", "SEO"],
         description: `A freelancing project involving SEO optimization, PHP, MySQL, and a customized admin panel with authentication.`
@@ -314,7 +327,7 @@ const Project = [
     {
         title: "Book Management API",
         pic: project15Image,
-        link: "https://github.com/mearjuntripathi/book-management-api/",
+        codeLink: "https://github.com/mearjuntripathi/book-management-api/",
         category: "apis",
         skills: ["Node.js", "JWT", "MVC"],
         description: `An API for book management built with Node.js, following MVC architecture with JWT for secure authentication.`
@@ -323,6 +336,7 @@ const Project = [
         title: "Rich Text Editor",
         pic: project18Image,
         link: "https://mearjuntripathi.github.io/blog-writer/",
+        codeLink: "https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/blog-writer",
         category: "web development",
         skills: ["JavaScript", "HTML", "CSS"],
         description: `A rich text editor with functionalities similar to Microsoft Word, supporting text formatting and customization.`

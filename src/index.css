@@ -2302,11 +2302,11 @@ textarea.form-input::-webkit-resizer {
 
 /* Popup Content */
 .popup-content {
-  background-color: #2c2c2c;
+  background-color: var(--eerie-black-2);;
   border-radius: 12px;
   width: 100%;
   max-width: 600px;
-  padding: 30px;
+  padding: 40px 20px 20px 20px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -2316,25 +2316,6 @@ textarea.form-input::-webkit-resizer {
   text-align: center;
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-/* Close Button */
-.popup-close {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  background-color: red;
-  border-radius: 10px;
-  padding: 0px 8px;
-  border: none;
-  font-size: larger;
-  color: white;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-
-.popup-close:hover {
-  background-color: rgb(192, 0, 0);
 }
 
 /* Popup Image */
@@ -2376,6 +2357,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .skill-progress-bg {
+  margin-top: 10px;
   display: flex; /* Align skills horizontally */
   gap: 10px; /* Space between skills */
 }

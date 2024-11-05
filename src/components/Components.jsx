@@ -58,7 +58,7 @@ function ContactItem(props) {
 
 function SocialItem(props) {
     return <li className="social-item">
-        <a  href={props.link} target="_blank" rel="noreferrer" className="social-link">
+        <a href={props.link} target="_blank" rel="noreferrer" className="social-link">
             <ion-icon name={props.icon}></ion-icon>
         </a>
     </li>
@@ -307,12 +307,14 @@ function ProjectPopup({ title, pic, description, skills, link, codeLink, onClose
     return (
         <div className="popup-overlay">
             <div className="popup-content">
-                <button className="popup-close" onClick={onClose}>
-                    &times; close
+                <button className="modal-close-btn" onClick={onClose} data-modal-close-btn>
+                    <ion-icon name="close-outline"></ion-icon>
                 </button>
+                <div style={{ width: "100%", right: "0px" }}>
+                    <h2 className="popup-title">{title}</h2>
+                </div>
                 <img className="popup-image" src={pic} alt={title} />
                 <div className="popup-details">
-                    <h2 className="popup-title">{title}</h2>
                     <hr />
                     <p className="popup-description">{description}</p>
                     <hr />
@@ -327,9 +329,11 @@ function ProjectPopup({ title, pic, description, skills, link, codeLink, onClose
                         </h4>
                     )}
                     <div className="popup-links">
-                        <a href={link} target="_blank" rel="noreferrer" className="popup-link">
-                            Open Project
-                        </a>
+                        {link && (
+                            <a href={link} target="_blank" rel="noreferrer" className="popup-link">
+                                Open Project
+                            </a>
+                        )}
                         {codeLink && (
                             <a href={codeLink} target="_blank" rel="noreferrer" className="popup-link">
                                 View Code
