@@ -11,7 +11,7 @@ export default function Contact() {
     const submitButton = submitButtonRef.current;
     const successMessage = successMessageRef.current;
     const errorMessage = errorMessageRef.current;
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyjtI77st34SYksWit468JjcXIYd8FaCjzf8DD12ChYpuOsXssTJwTUL4hCvjKcvbIR/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyhGkN-CxqsJK8Z2quntg4hIQqjLTcDVG3ClYSWS7fIAVDg9SthW8hJzH7WTbuCQtW-uw/exec';
 
     const handleSubmit = (e) => {
       e.preventDefault();
