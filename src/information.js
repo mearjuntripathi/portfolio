@@ -114,7 +114,7 @@ const AboutMe = {
             displayDate: "22 Nov, 2022",
             about: `As a <b>Software Engineer Intern</b> at Rhizicube, Arjun made a meaningful impact on our team. He contributed extensively to <b>API Development</b> and <b>Testing</b>, showcasing his technical proficiency and dedication to high standards. Arjun’s collaborative skills and proactive approach were a great asset, making him a highly valued member of our team.`
         }
-    ]    
+    ]
 }
 
 
@@ -184,12 +184,30 @@ const ResumeData = {
 
 const Project = [
     {
+        title: "RESTful API with Node.js and MySQL",
+        pic: "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhjehww5wq8p3cmdu7j9o.png",
+        link: "https://dev.to/mearjuntripathi/building-a-restful-api-with-nodejs-and-mysql-1m77",
+        codeLink: 'https://github.com/mearjuntripathi/nodejs/tree/main/crud-MySQL',
+        category: "article",
+        skills: ["Node.js", "Express.js", "MySQL", "Postman"],
+        description: `We're introducing MySQL, a relational database management system, to store data securely.`
+    },
+    {
+        title: "RESTful API with Express.js without database",
+        pic: "https://github.com/mearjuntripathi/nodejs/raw/main/crud-RESTAPI/image/get.png",
+        link: "https://dev.to/mearjuntripathi/building-a-student-data-management-restful-api-with-expressjs-without-database-115",
+        codeLink: 'https://github.com/mearjuntripathi/nodejs/tree/main/crud-RESTAPI',
+        category: "article",
+        skills: ["Node.js", "Express.js"],
+        description: `The process of building a RESTful API for managing student data using Node.js and the Express.js framework. This backend code tutorial assumes you have a working knowledge of JavaScript, Node.js, Express.js, and JSON.`
+    },
+    {
         title: "Gapshap",
         pic: project1Image,
         link: "https://replit.com/@mearjuntripathi/gapshap?v=1",
         codeLink: 'https://github.com/mearjuntripathi/Gapshap',
         category: "web development",
-        skills: ["Node.js",  "Express.js", "MongoDB", "React.js", "Socket.io"],
+        skills: ["Node.js", "Express.js", "MongoDB", "React.js", "Socket.io"],
         description: `A chat application using Node.js, Express, and Socket.IO. Users can join a chat room, send messages to all users, or send private messages.`
     },
     {
@@ -214,7 +232,7 @@ const Project = [
         title: "DORA",
         pic: project4Image,
         link: "https://mearjuntripathi.github.io/dora/",
-        codeLink:  'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/dora',
+        codeLink: 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/dora',
         category: "web development",
         skills: ["JavaScript", "Wikipedia API", "Voice Recognition"],
         description: `An interactive app that uses the Wikipedia API and voice recognition to search and provide detailed information from Wikipedia.`
@@ -250,7 +268,7 @@ const Project = [
         title: "To-Do List",
         pic: project8Image,
         link: "https://mearjuntripathi.github.io/TO-DO%20list/",
-        codeLink : 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/TO-DO%20list',
+        codeLink: 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/TO-DO%20list',
         category: "web development",
         skills: ["HTML", "CSS", "JavaScript"],
         description: `A basic To-Do list application that allows users to add, delete, and manage tasks.`
@@ -301,7 +319,7 @@ const Project = [
         title: "Testhub",
         pic: project14Image,
         link: "https://explorer-app.github.io/testhub/",
-        codeLink : "https://github.com/mearjuntripathi/Testhub-server",
+        codeLink: "https://github.com/mearjuntripathi/Testhub-server",
         category: "web development",
         skills: ["Node.js", "React.js", "MySQL"],
         description: `A test platform for online exams with features to minimize cheating, using MySQL, Node, and React.`
@@ -319,7 +337,7 @@ const Project = [
         title: "Dinesh Rana Enterprises",
         pic: project17Image,
         link: "http://dineshranaenterprises.in/",
-        codeLink : "https://github.com/rahuldurgapal/Interior-Project",
+        codeLink: "https://github.com/rahuldurgapal/Interior-Project",
         category: "web development",
         skills: ["PHP", "MySQL", "SEO"],
         description: `A freelancing project involving SEO optimization, PHP, MySQL, and a customized admin panel with authentication.`
