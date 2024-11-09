@@ -5,7 +5,7 @@ export default function About() {
     const [model, setModel] = useState(null);
     return <article className="about active" data-page="about">
         <header>
-            <h2 className="h2 articletitle">About me</h2>
+            <h2 className="h2 article-title">About me</h2>
         </header>
         <section className="about-text" dangerouslySetInnerHTML={{ __html: AboutMe.about_text }}>
 
