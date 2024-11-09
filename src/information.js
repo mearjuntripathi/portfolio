@@ -184,6 +184,15 @@ const ResumeData = {
 
 const Project = [
     {
+        title: "Upload Files on Drive With Node.js",
+        pic: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcmqwl2ix1k7pxfasqcei.png",
+        link: "https://dev.to/mearjuntripathi/upload-files-on-drive-with-nodejs-15j2",
+        codeLink: 'https://github.com/mearjuntripathi/nodejs/tree/main/file_upload',
+        category: "article",
+        skills: ["Node.js", "Express.js", "Google Cloud", "Drive"],
+        description: `Google Drive with your Node.js applications, you can harness the robust storage capabilities of Google Cloud. This documentation aims to provide a concise guide on utilizing Google Drive in conjunction with Node.js to manage files efficiently.`
+    },
+    {
         title: "RESTful API with Node.js and MySQL",
         pic: "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhjehww5wq8p3cmdu7j9o.png",
         link: "https://dev.to/mearjuntripathi/building-a-restful-api-with-nodejs-and-mysql-1m77",
