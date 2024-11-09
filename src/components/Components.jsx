@@ -11,7 +11,7 @@ function SidebarInfo() {
         elementToggleFunc(sidebar);
     }
     return <div className="sidebar-info">
-        <figure className="avatar-box">
+        <figure className="avatar-box" style={{borderRadius :"50%"}}>
             <img src={Introduction.profile} alt={Introduction.name} width="80" />
         </figure>
 
