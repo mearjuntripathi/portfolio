@@ -68,7 +68,11 @@ function App() {
   return (
     <>
       <main>
-        <button id="toggle-theme" onClick={toggleTheme}>☀</button>
+        <div className={`app ${theme}`}>
+          <button id="toggle-theme" onClick={toggleTheme}>
+            {theme === 'dark' ? '🌙' : '🌞'}
+          </button>
+        </div>
         <Aside />
         <MainContent />
       </main>
