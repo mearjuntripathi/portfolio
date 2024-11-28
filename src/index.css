@@ -57,6 +57,57 @@
   animation-delay: 0.66666s;
 }
 
+/* Slider container */
+.slider-container {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+/* Hide the checkbox input */
+.slider-input {
+  display: none;
+}
+
+/* Slider track (vertical appearance) */
+.slider-label {
+  width: 36px; /* Make the slider vertical by swapping width and height */
+  height: 70px; /* Taller for vertical orientation */
+  background-color: #ccc;
+  border-radius: 36px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+/* Slider knob */
+.slider-label::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  border-radius: 50%;
+  top: 4px; /* Start position at the top */
+  left: 4px; /* Center horizontally */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+/* When the checkbox is checked */
+.slider-input:checked + .slider-label {
+  background-color: #969896; /* Change track color */
+}
+
+.slider-input:checked + .slider-label::before {
+  transform: translateY(34px); /* Move knob downward */
+}
+
+
 @-webkit-keyframes jumper {
   0% {
     opacity: 0;
@@ -113,17 +164,6 @@
 .alert.error {
   background-color: #f44336;
 }
-
-#toggle-theme {
-  position: fixed;
-  bottom: 60px;
-  right: 25px;
-  font-size: xx-large;
-  font-weight: bolder;
-  color: var(--white-2);
-  z-index: 999;
-}
-
 
 
 /*-----------------------------------*\
@@ -2370,4 +2410,20 @@ textarea.form-input::-webkit-resizer {
 
 .popup-link {
   margin-right: 10px; /* Adds space between the links */
+}
+
+@media (max-width: 1024px){
+  .slider-container {
+    bottom: 80px;
+    /* right: 25px; */
+  }
+}
+
+@media (max-width: 578px){
+  .slider-container {
+    position: absolute;
+    top: 50px;
+    bottom: auto;
+    /* right: 25px; */
+  }
 }

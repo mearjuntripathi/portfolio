@@ -68,11 +68,16 @@ function App() {
   return (
     <>
       <main>
-        <div className={`app ${theme}`}>
-          <button id="toggle-theme" onClick={toggleTheme}>
-            {theme === 'dark' ? '🌙' : '🌞'}
-          </button>
-        </div>
+      <div className="slider-container">
+        <input
+          type="checkbox"
+          id="slider"
+          className="slider-input"
+          onChange={toggleTheme}
+          checked={theme === 'dark'} // Reflect state
+        />
+        <label htmlFor="slider" className="slider-label"></label>
+      </div>
         <Aside />
         <MainContent />
       </main>
