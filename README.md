@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 👋 Hi, I'm Arjun Tripathi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Welcome to my personal portfolio website – [mearjuntripathi.me](https://mearjuntripathi.me)
 
-## Available Scripts
+I'm a **Software Engineer** from Varanasi, India 🇮🇳. I'm passionate about building high-quality software solutions, developing intuitive user interfaces, and crafting powerful backend APIs. With a strong foundation in **Data Structures & Algorithms**, **Web Development**, and **Cloud Computing**, I strive to create impactful projects that solve real-world problems.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📬 Contact Info
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📧 Email: [mearjuntripathi@gmail.com](mailto:mearjuntripathi@gmail.com)
+- 📞 Phone: +91 8887135297
+- 📍 Location: Varanasi, UP, India
+- 🐦 Twitter: [@mearjuntripathi](https://x.com/mearjuntripathi)
+- 💻 GitHub: [mearjuntripathi](https://github.com/mearjuntripathi)
+- 🔗 LinkedIn: [linkedin.com/in/mearjuntripathi](https://www.linkedin.com/in/mearjuntripathi/)
+- 🌐 Google Dev: [g.dev/mearjuntripathi](https://g.dev/mearjuntripathi)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧠 About Me
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I am a passionate and skilled Software Engineer with a strong academic background and diverse technical expertise. I hold a **Master's degree in Computer Application** from Dr. A. P. J. Abdul Kalam Technical University and a **Bachelor's degree** from Mahatma Gandhi Kashi Vidyapith University.
 
-### `npm run build`
+💼 My journey includes:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Internship at **Rhizicube** where I worked on production-ready **APIs** using **Go**, **Node.js**, **REST API**, and **gRPC**.
+- Mentoring and training students in **DSA**, **Web Development**, **API Development**, and **Cloud Computing** at **Chandigarh University** and **Galgotias University**.
+- Developing full-stack web apps using **MERN stack**, building REST APIs, and deploying with **Docker** and **Postman**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Skills
 
-### `npm run eject`
+### Languages
+`C` `C++` `Java` `JavaScript` `PHP` `Go` `HTML/CSS` `Node.js`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frameworks & Tools
+`ReactJS` `ExpressJS` `REST API` `Gin` `gRPC` `Socket.io` `WebSocket` `Docker` `Postman` `VS Code` `AWS` `Linux`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Databases
+`MySQL` `MongoDB` `Oracle`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 👨‍🏫 Experience
 
-## Learn More
+### Technical Trainer – Galgotias University *(Jul 2024 – Jan 2025)*
+Taught DSA, real-world projects, and problem-solving with C++ and Java.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Technical Trainer – Chandigarh University *(Jul 2024 – Jan 2025)*
+Guided students on the MERN stack, Docker, Postman, and API testing.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Software Engineer Intern – Rhizicube *(Jul 2022 – Nov 2022)*
+Built and tested production-level APIs, participated in team meetings, and enhanced technical + communication skills.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎓 Education
 
-### Analyzing the Bundle Size
+- **MCA** – Dr. A.P.J. Abdul Kalam Technical University (2022 – 2024)  
+  📊 CGPA: **8.3**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **BCA** – Mahatma Gandhi Kashi Vidyapith (2019 – 2022)  
+  🏆 Percentage: **73%**
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔧 Services
 
-### Advanced Configuration
+- 💻 **Web Development**  
+  High-quality frontend and backend websites using modern tech stack.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- 🧠 **Programming & DSA**  
+  Strong coding skills and understanding of problem-solving & system design.
 
-### Deployment
+- 🧪 **API Development**  
+  Backend API development with Go and Node.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- ☁️ **Cloud Computing**  
+  Hands-on with AWS and Azure for modern deployment and scalability.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧾 Testimonials
+
+> "Arjun’s hands-on approach and practical insights significantly enhanced our students’ understanding of DSA and cloud computing."  
+— **Chandigarh University**
+
+> "He built a stunning portfolio for our company and an intuitive admin panel. Highly satisfied!"  
+— **Finofield**
+
+> "At Rhizicube, Arjun showcased his dedication and technical proficiency in API development."  
+— **Rhizicube**
+
+---
+
+## 🚀 Featured Projects
+
+### [Upload Files to Google Drive with Node.js](https://dev.to/mearjuntripathi/upload-files-on-drive-with-nodejs-15j2)  
+📁 Node.js + Express + Google Cloud
+
+### [RESTful API with Node.js & MySQL](https://dev.to/mearjuntripathi/building-a-restful-api-with-nodejs-and-mysql-1m77)  
+🛠️ API with MySQL and Postman testing
+
+### [Gapshap](https://replit.com/@mearjuntripathi/gapshap?v=1)  
+💬 Real-time chat app with Socket.IO
+
+### [ChatBot](https://mearjuntripathi.github.io/chatbot/)  
+🤖 AI ChatBot with OpenAI API
+
+... and many more!
+
+---
+
+📄 **[View My Resume](https://drive.google.com/file/d/1AU0YVDIEhOKu_g-yi-7DXbseyWCpQkl6/view?usp=sharing)**
+
+---
+
+Thanks for visiting my portfolio! Let's connect and build something awesome together 🚀
+

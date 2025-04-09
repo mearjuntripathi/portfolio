@@ -21,7 +21,7 @@ import project15Image from './images/project-15.png';
 import project16Image from './images/project-16.png';
 import project17Image from './images/project-17.png';
 import project18Image from './images/project-18.png';
-const dineshrana_avatar = 'https://dineshranaenterprises.in/assets/images/icon.png';
+const finofield_avatar = 'https://www.finofield.com/assets/img/logo/loder.png';
 const cu_avatar = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIvdkDsEN0-BB5WdM3CfdnaxE5O4FDSEioQ&s';
 const rhizicube_avatar = 'https://static.wixstatic.com/media/59608f_e7489f65315d4dc9be121b7dc56d9302~mv2.jpg/v1/fill/w_81,h_81,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/White-Insta-profile-image.jpg'
 
@@ -101,9 +101,9 @@ const AboutMe = {
             about: `Arjun was engaged to train our students in <b>Data Structures and Algorithms (DSA)</b>, <b>Web Technology</b>, <b>API Development</b>, and <b>Cloud Computing</b>. His hands-on approach and practical insights significantly enhanced students' understanding. Arjun's ability to simplify complex concepts and ensure clarity for our students has been invaluable, and we appreciate his dedication to fostering real-world skills in technology.`
         },
         {
-            name: "Dinesh Rana",
-            pic: dineshrana_avatar,
-            dateTime: "2024-03-15",
+            name: "Finofield",
+            pic: finofield_avatar,
+            dateTime: "2025-03-15",
             displayDate: "15 March, 2024",
             about: `We hired Arjun to develop our company portfolio, and his work exceeded expectations. With a deep understanding of design and functionality, he crafted a comprehensive portfolio and an intuitive admin panel that perfectly aligns with our brand. Arjun’s commitment to client satisfaction, attention to detail, and expertise made the project a success. We couldn't be happier with the results.`
         },
@@ -121,16 +121,24 @@ const AboutMe = {
 const ResumeData = {
     Experience: [
         {
+            companyName: "Galgotias University",
+            jobTitle: "Technical Trainer",
+            session: "July 2024 — Jan 2025",
+            about: `As a Technical Trainer, I teach students the fundamentals of Data Structures and Algorithms (DSA), including arrays, linked lists, stacks, queues, trees, graphs, and more. I also cover various algorithms such as sorting, searching, recursion, dynamic programming, and greedy algorithms. My goal is to help students develop problem-solving skills and learn how to implement these concepts in real-world applications.
+                <br>
+                <b>Skills</b>: C++ · JAVA ·  GitHub · Git · Communication · Problem Solving`
+        },
+        {
             companyName: "Chandigarh University",
             jobTitle: "Technical Trainer",
-            session: "July 2024 — Present",
+            session: "July 2024 — Jan 2025",
             about: `As a Technical Trainer, I teach students the fundamentals of Data Structures and Algorithms (DSA), 
                     providing hands-on training and in-depth knowledge of web technologies, particularly the MERN stack. 
                     I guide students through project development, from building applications to deploying them using Docker, 
                     and testing APIs using Postman. 
                     My role involves ensuring students understand the practical aspects of these technologies and their application in real-world scenarios.
                 <br>
-                <b>Skills</b>: C++ · JAVA · JavaScript · GitHub · MERN Stack · Postman · JSON · gRPC · Git · Communication · Problem Solving · Zapier · MySQL · Gitlab · REST APIs`
+                <b>Skills</b>: C++ · JAVA · JavaScript · GitHub · MERN Stack · Postman · JSON · gRPC · Git · Communication · Problem Solving · MySQL · REST APIs`
         },
         {
             companyName: "Rhizicube",
@@ -169,7 +177,7 @@ const ResumeData = {
         },
         {
             title: "Library / Frameworks",
-            skill: ["ReactJS", "ExpressJS", "Rest API", "gRPC", "Socket.io", "WebSocket", "Docker"]
+            skill: ["ReactJS", "ExpressJS", "Rest API", "Gin", "gRPC", "Socket.io", "WebSocket", "Docker"]
         },
         {
             title: "Tools / Plateform",
