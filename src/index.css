@@ -65,7 +65,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column;
+  /* Stack elements vertically */
 }
 
 /* Hide the checkbox input */
@@ -75,8 +76,10 @@
 
 /* Slider track (vertical appearance) */
 .slider-label {
-  width: 36px; /* Make the slider vertical by swapping width and height */
-  height: 70px; /* Taller for vertical orientation */
+  width: 36px;
+  /* Make the slider vertical by swapping width and height */
+  height: 70px;
+  /* Taller for vertical orientation */
   background-color: #ccc;
   border-radius: 36px;
   cursor: pointer;
@@ -92,19 +95,23 @@
   height: 28px;
   background-color: white;
   border-radius: 50%;
-  top: 4px; /* Start position at the top */
-  left: 4px; /* Center horizontally */
+  top: 4px;
+  /* Start position at the top */
+  left: 4px;
+  /* Center horizontally */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
 }
 
 /* When the checkbox is checked */
-.slider-input:checked + .slider-label {
-  background-color: #969896; /* Change track color */
+.slider-input:checked+.slider-label {
+  background-color: #969896;
+  /* Change track color */
 }
 
-.slider-input:checked + .slider-label::before {
-  transform: translateY(34px); /* Move knob downward */
+.slider-input:checked+.slider-label::before {
+  transform: translateY(34px);
+  /* Move knob downward */
 }
 
 
@@ -1078,19 +1085,21 @@ main {
   flex-wrap: wrap;
   color: var(--light-gray);
   align-items: center;
-  margin-bottom: 8px; 
+  margin-bottom: 8px;
 }
 
 .company-name {
   font-size: 1.1em;
   font-weight: bold;
-  color: var(--light-gray); /* Lighter shade for company name */
+  color: var(--light-gray);
+  /* Lighter shade for company name */
 }
 
 .position {
   font-size: 1em;
   font-weight: normal;
-  color: var(--light-gray)#fff; /* Highlight the job title */
+  color: var(--light-gray)#fff;
+  /* Highlight the job title */
 }
 
 
@@ -1147,9 +1156,32 @@ main {
   display: none;
 }
 
+.input {
+  width: 200px;
+  border-radius: 10px;
+  border: var(--white-1) 1px solid;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input>input {
+  color: var(--white-1);
+  outline: none;
+  border: none;
+  width: 80%;
+}
+
+.input>i {
+  color: var(--white-1);
+}
+
 .filter-select-box {
   position: relative;
   margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .filter-select {
@@ -1158,7 +1190,10 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   padding: 12px 16px;
   border: 1px solid var(--jet);
   border-radius: 14px;
@@ -1892,6 +1927,7 @@ textarea.form-input::-webkit-resizer {
 
 
 
+
   /**
    * #CONTACT
    */
@@ -2326,6 +2362,7 @@ textarea.form-input::-webkit-resizer {
   }
 
 }
+
 /* Popup Overlay */
 .popup-overlay {
   position: fixed;
@@ -2342,7 +2379,8 @@ textarea.form-input::-webkit-resizer {
 
 /* Popup Content */
 .popup-content {
-  background-color: var(--eerie-black-2);;
+  background-color: var(--eerie-black-2);
+  ;
   border-radius: 12px;
   width: 100%;
   max-width: 600px;
@@ -2386,40 +2424,47 @@ textarea.form-input::-webkit-resizer {
 
 .popup-title {
   color: var(--white-1);
-  margin-bottom: 15px; /* Adds space below the title */
+  margin-bottom: 15px;
+  /* Adds space below the title */
 }
 
 .popup-description {
   color: var(--light-gray);
-  margin: 15px 0; /* Adds space above and below the description */
+  margin: 15px 0;
+  /* Adds space above and below the description */
 }
 
 .popup-skills {
-  margin: 15px 0; /* Adds space above and below the skills section */
+  margin: 15px 0;
+  /* Adds space above and below the skills section */
 }
 
 .skill-progress-bg {
   margin-top: 10px;
-  display: flex; /* Align skills horizontally */
-  gap: 10px; /* Space between skills */
+  display: flex;
+  /* Align skills horizontally */
+  gap: 10px;
+  /* Space between skills */
 }
 
 .popup-links {
-  margin-top: 15px; /* Adds space above the links */
+  margin-top: 15px;
+  /* Adds space above the links */
 }
 
 .popup-link {
-  margin-right: 10px; /* Adds space between the links */
+  margin-right: 10px;
+  /* Adds space between the links */
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .slider-container {
     bottom: 80px;
     /* right: 25px; */
   }
 }
 
-@media (max-width: 578px){
+@media (max-width: 578px) {
   .slider-container {
     position: absolute;
     top: 50px;

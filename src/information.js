@@ -22,6 +22,7 @@ import project16Image from './images/project-16.png';
 import project17Image from './images/project-17.png';
 import project18Image from './images/project-18.png';
 const finofield_avatar = 'https://www.finofield.com/assets/img/logo/loder.png';
+const gu_avatar = 'https://galgotiacollege.edu//public/uploads/all/2/PSf8vV9pdHjUb5MhnGpG1hiiJ9Y0c8YYgSAk54Q3.png'
 const cu_avatar = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIvdkDsEN0-BB5WdM3CfdnaxE5O4FDSEioQ&s';
 const rhizicube_avatar = 'https://static.wixstatic.com/media/59608f_e7489f65315d4dc9be121b7dc56d9302~mv2.jpg/v1/fill/w_81,h_81,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/White-Insta-profile-image.jpg'
 
@@ -93,6 +94,13 @@ const AboutMe = {
     ],
 
     testimonial: [
+        {
+            name: "Galgotias University",
+            pic: gu_avatar,
+            dateTime: "2025-05-30",
+            displayDate: "30 May, 2025",
+            about: `Arjun was engaged to train our students in <b>Data Structures and Algorithms (DSA)</b>. His hands-on approach and practical insights significantly enhanced students' understanding. Arjun's ability to simplify complex concepts and ensure clarity for our students has been invaluable, and we appreciate his dedication to fostering real-world skills in competitive programming and logical reasoning.`
+        },
         {
             name: "Chandigarh University",
             pic: cu_avatar,
