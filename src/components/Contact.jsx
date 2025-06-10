@@ -48,7 +48,7 @@ export default function Contact() {
     };
 
     contact_form.addEventListener('submit', handleSubmit);
-    
+
     return () => {
       contact_form.removeEventListener('submit', handleSubmit);
     };
@@ -57,10 +57,10 @@ export default function Contact() {
   return (
     <>
       <div id="success-message" className="alert success" ref={successMessageRef}>
-        😊 Form submitted successfully! 
+        😊 Form submitted successfully!
       </div>
       <div id="error-message" className="alert error" ref={errorMessageRef}>
-        😔 Error to Submit Form 
+        😔 Error to Submit Form
       </div>
       <article className="contact active" data-page="contact">
         <header>
@@ -74,6 +74,10 @@ export default function Contact() {
               width="400"
               height="300"
               loading="lazy"
+              title="Parmanandpur Tripathi Home Map"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </figure>
         </section>
