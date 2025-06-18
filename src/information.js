@@ -199,6 +199,15 @@ const ResumeData = {
 }
 
 const Project = [
+	{
+		title: "How to create a Segment Tree using CPP",
+		pic: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgutw6o821ayc0bp6e0z7.png",
+		link: "https://dev.to/mearjuntripathi/segment-tree-59n1",
+		codeLink: "https://github.com/mearjuntripathi/Data_Structure_Algorithm/tree/main/Tree/Binary%20Tree/SegmentTree",
+		category: "article",
+		skills: ["C++", "DSA", "Algorithm", "Tree", "Binary Tree", "Range Query"],
+		description: `A Segment Tree is a data structure that stores information about array intervals as a tree. This allows answering range queries over an array efficiently, while still being flexible enough to allow quick modification of the array.`
+	},
     {
         title: "Upload Files on Drive With Node.js",
         pic: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcmqwl2ix1k7pxfasqcei.png",
