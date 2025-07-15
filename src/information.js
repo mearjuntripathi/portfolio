@@ -31,7 +31,7 @@ const Introduction = {
     profile: profile,
     position: 'Software Engineer',
     email: 'mearjuntripathi@gmail.com',
-    phone: '+91 8887135297',
+    // phone: '+91 8887135297',
     birthday: 'April 15, 2002',
     location: 'Varanasi, UP, India',
     twitter: 'https://x.com/mearjuntripathi',

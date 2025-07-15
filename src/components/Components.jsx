@@ -80,12 +80,12 @@ function SidebarInfoMore() {
                 link="mailto:mearjuntripathi@gmail.com"
                 displayText="mearjuntripathi@gmail.com"
             />
-            <ContactItem
+            {/* <ContactItem
                 icon="phone-portrait-outline"
                 name="Phone"
                 link="tel:+918887135297"
                 displayText="+91 8887135297"
-            />
+            /> */}
             <ContactItem
                 icon="calendar-outline"
                 name="Birthday"
