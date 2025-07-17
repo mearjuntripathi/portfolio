@@ -131,7 +131,7 @@ const ResumeData = {
         {
             companyName: "Galgotias University",
             jobTitle: "Technical Trainer",
-            session: "July 2024 — Jan 2025",
+            session: "Jan 2025 — Present",
             about: `As a Technical Trainer, I teach students the fundamentals of Data Structures and Algorithms (DSA), including arrays, linked lists, stacks, queues, trees, graphs, and more. I also cover various algorithms such as sorting, searching, recursion, dynamic programming, and greedy algorithms. My goal is to help students develop problem-solving skills and learn how to implement these concepts in real-world applications.
                 <br>
                 <b>Skills</b>: C++ · JAVA ·  GitHub · Git · Communication · Problem Solving`
