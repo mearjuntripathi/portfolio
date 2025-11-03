@@ -21,6 +21,7 @@ import project15Image from './images/project-15.png';
 import project16Image from './images/project-16.png';
 import project17Image from './images/project-17.png';
 import project18Image from './images/project-18.png';
+import project19Image from './images/project-19.png';
 const finofield_avatar = 'https://www.finofield.com/assets/img/logo/loder.png';
 const gu_avatar = 'https://galgotiacollege.edu//public/uploads/all/2/PSf8vV9pdHjUb5MhnGpG1hiiJ9Y0c8YYgSAk54Q3.png'
 const cu_avatar = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIvdkDsEN0-BB5WdM3CfdnaxE5O4FDSEioQ&s';
@@ -199,15 +200,24 @@ const ResumeData = {
 }
 
 const Project = [
-	{
-		title: "How to create a Segment Tree using CPP",
-		pic: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgutw6o821ayc0bp6e0z7.png",
-		link: "https://dev.to/mearjuntripathi/segment-tree-59n1",
-		codeLink: "https://github.com/mearjuntripathi/Data_Structure_Algorithm/tree/main/Tree/Binary%20Tree/SegmentTree",
-		category: "article",
-		skills: ["C++", "DSA", "Algorithm", "Tree", "Binary Tree", "Range Query"],
-		description: `A Segment Tree is a data structure that stores information about array intervals as a tree. This allows answering range queries over an array efficiently, while still being flexible enough to allow quick modification of the array.`
-	},
+    {
+        title: "Coding Profile Service (Go + GraphQL)",
+        pic: project19Image,
+        link: "https://coding-profile-service.onrender.com/stats",
+        codeLink: "https://github.com/mearjuntripathi/coding-profile-service",
+        category: "apis",
+        skills: ["Go", "GraphQL", "Docker", "goquery", "net/http", "gqlgen"],
+        description: `Coding Profile Service is a Go-based backend API that fetches and aggregates competitive programming statistics from multiple platforms like HackerRank, CodeChef, Codeforces, LeetCode, and GeeksforGeeks. It uses official APIs and HTML scraping, wrapped in a modular GraphQL interface for high performance and flexibility.`
+    },
+    {
+        title: "How to create a Segment Tree using CPP",
+        pic: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgutw6o821ayc0bp6e0z7.png",
+        link: "https://dev.to/mearjuntripathi/segment-tree-59n1",
+        codeLink: "https://github.com/mearjuntripathi/Data_Structure_Algorithm/tree/main/Tree/Binary%20Tree/SegmentTree",
+        category: "article",
+        skills: ["C++", "DSA", "Algorithm", "Tree", "Binary Tree", "Range Query"],
+        description: `A Segment Tree is a data structure that stores information about array intervals as a tree. This allows answering range queries over an array efficiently, while still being flexible enough to allow quick modification of the array.`
+    },
     {
         title: "Upload Files on Drive With Node.js",
         pic: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcmqwl2ix1k7pxfasqcei.png",
