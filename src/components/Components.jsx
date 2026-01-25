@@ -11,7 +11,7 @@ function SidebarInfo() {
         elementToggleFunc(sidebar);
     }
     return <div className="sidebar-info">
-        <figure className="avatar-box" style={{borderRadius :"50%"}}>
+        <figure className="avatar-box" style={{ borderRadius: "50%" }}>
             <img src={Introduction.profile} alt={Introduction.name} width="80" />
         </figure>
 
@@ -86,7 +86,7 @@ function SidebarInfoMore() {
                 link="tel:+918887135297"
                 displayText="+91 8887135297"
             /> */}
-            <ContactItem
+            {/* <ContactItem
                 icon="calendar-outline"
                 name="Birthday"
                 time
@@ -98,7 +98,7 @@ function SidebarInfoMore() {
                 name="Location"
                 address
                 displayText="Varanasi, U.P., India"
-            />
+            /> */}
 
         </ul>
 

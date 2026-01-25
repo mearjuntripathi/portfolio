@@ -50,25 +50,20 @@ const SocialAccount = {
 
 const AboutMe = {
     about_text: `<p>
-            I am Arjun Tripathi, a passionate and skilled Software Engineer with a strong academic background and
-            diverse technical expertise. I hold a Master's degree in Computer Application from Dr. A. P. J. Abdul Kalam
-            Technical University and a Bachelor's degree in Computer Application from Mahatma Gandhi Kashi Vidyapith
-            University. My professional journey includes an internship at Rhizicube, where I developed production-ready
-            APIs using <b>GO</b>, <b>NodeJS</b>, <b>REST API</b>, and <b>gRPC</b>. I am proficient in various
-            programming languages and
-            frameworks, including <b>C</b>, <b>C++</b>, <b>JAVA</b>, <b>PHP</b>, <b>HTML/CSS</b>, <b>JavaScript</b>,
-            <b>ReactJS</b>, and <b>ExpressJS</b>.
-          </p>
-          <p>
-            I have demonstrated my technical capabilities through several significant projects, such as developing a
-            company portfolio website and an online test portal. I have also created a real-time <b>Tic Tac Toe game</b>
-            and a
-            <b>REST API</b> using <b>Go Lang</b> and <b>Docker</b>. My problem-solving skills are evident from my
-            achievements on competitive
-            coding platforms like <b>CodeChef</b>, <b>LeetCode</b>, and <b>HackerRank</b>. With my strong technical
-            foundation and hands-on
-            experience, I am well-equipped to tackle complex software engineering challenges.
-          </p>`,
+  I am Arjun Tripathi, a Software Engineer and Technical Trainer with hands-on experience in backend and web development.
+  I currently work as a Technical Trainer at <b>Galgotias University</b> and <b>Chandigarh University</b>, where I mentor
+  students in core computer science concepts, full-stack development, and real-world project building. My teaching
+  approach focuses on practical implementation, industry-aligned skills, and problem-solving.
+</p>
+
+<p>
+  Alongside training, I actively work as a <b>Backend / Web Developer</b>, building scalable and efficient applications
+  using modern technologies. I have experience working with <b>Node.js</b>, <b>Go</b>, <b>REST APIs</b>, <b>gRPC</b>,
+  <b>Docker</b>, and frontend tools like <b>React</b>, <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. I have developed
+  multiple real-world projects including APIs, web platforms, and interactive applications, ensuring clean
+  architecture and production-ready code.
+</p>
+`,
     resume: "https://drive.google.com/file/d/1AU0YVDIEhOKu_g-yi-7DXbseyWCpQkl6/view?usp=sharing",
 
     service: [
