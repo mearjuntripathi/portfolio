@@ -64,7 +64,7 @@ const AboutMe = {
   architecture and production-ready code.
 </p>
 `,
-    resume: "https://drive.google.com/file/d/1AU0YVDIEhOKu_g-yi-7DXbseyWCpQkl6/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1FqlWdgTjOQdbf9rFIABqY0qIslt9-3uJ/view",
 
     service: [
         {
