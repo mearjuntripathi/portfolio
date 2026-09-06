@@ -5,7 +5,7 @@ import { elementToggleFunc } from "../function";
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [searchQuery, setSearchQuery] = useState(""); // <-- New state for search input
+  const [searchQuery, setSearchQuery] = useState("");
 
   const uniqueCategories = ["All", ...new Set(Project.map((project) => project.category))];
 
@@ -19,7 +19,7 @@ const Portfolio = () => {
 
   const toggleSelect = () => {
     const select = document.querySelector("[data-select]");
-    elementToggleFunc(select);
+    if (select) elementToggleFunc(select);
   };
 
   const handleSearchChange = (e) => {
@@ -31,7 +31,7 @@ const Portfolio = () => {
       selectedCategory === "All" || project.category.toLowerCase() === selectedCategory.toLowerCase();
     const matchesSearch =
       project.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      project.description?.toLowerCase().includes(searchQuery.toLowerCase()); // optional chaining in case description doesn't exist
+      project.description?.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
@@ -42,7 +42,6 @@ const Portfolio = () => {
       </header>
 
       <section className="projects">
-        {/* Filter buttons */}
         <ul className="filter-list">
           {uniqueCategories.map((category, index) => (
             <li className="filter-item" key={index}>
@@ -55,19 +54,17 @@ const Portfolio = () => {
               </button>
             </li>
           ))}
-          {/* Search bar */}
           <div className="input">
             <i className="uil uil-search"></i>
             <input
               type="text"
-              placeholder="Search here..."
+              placeholder="$ grep ..."
               value={searchQuery}
               onChange={handleSearchChange}
             />
           </div>
         </ul>
 
-        {/* Dropdown category filter (mobile view etc.) */}
         <div className="filter-select-box">
           <button className="filter-select" data-select onClick={toggleSelect}>
             <div className="select-value" data-select-value>
@@ -90,19 +87,17 @@ const Portfolio = () => {
               </li>
             ))}
           </ul>
-          {/* Search bar (optional duplicate for dropdown section) */}
           <div className="input">
             <i className="uil uil-search"></i>
             <input
               type="text"
-              placeholder="Search here..."
+              placeholder="$ grep ..."
               value={searchQuery}
               onChange={handleSearchChange}
             />
           </div>
         </div>
 
-        {/* Project list */}
         <ul className="project-list">
           {filteredProjects.map((item, index) => (
             <ProjectItem key={index} {...item} />

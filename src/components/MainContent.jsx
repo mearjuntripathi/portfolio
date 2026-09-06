@@ -3,7 +3,8 @@ import { NavBar } from "./Components";
 import About from "./About";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+import CodingProfiles from "./CodingProfiles";
+import Connect from "./Connect";
 
 export default function MainContent() {
   const initialPage = window.localStorage.getItem('section') || 'About';
@@ -21,8 +22,10 @@ export default function MainContent() {
         return <Resume />;
       case "Portfolio":
         return <Portfolio />;
-      case "Contact":
-        return <Contact />;
+      case "Profiles":
+        return <CodingProfiles />;
+      case "Connect":
+        return <Connect />;
       default:
         return <About />;
     }

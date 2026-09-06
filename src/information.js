@@ -1,4 +1,4 @@
-import profile from "./images/my-avatar.png";
+// import profile from "./images/my-avatar.png";
 import design from "./images/icon-design.svg";
 import dev from "./images/icon-dev.svg";
 import api from "./images/icon-api.svg";
@@ -29,10 +29,9 @@ const rhizicube_avatar = 'https://static.wixstatic.com/media/59608f_e7489f65315d
 
 const Introduction = {
     name: 'Arjun Tripathi',
-    profile: profile,
+    profile: 'https://avatars.githubusercontent.com/u/74202760?v=4',
     position: 'Software Engineer',
     email: 'mearjuntripathi@gmail.com',
-    // phone: '+91 8887135297',
     birthday: 'April 15, 2002',
     location: 'Varanasi, UP, India',
     twitter: 'https://x.com/mearjuntripathi',
@@ -109,14 +108,14 @@ const AboutMe = {
             pic: finofield_avatar,
             dateTime: "2025-03-15",
             displayDate: "15 March, 2024",
-            about: `We hired Arjun to develop our company portfolio, and his work exceeded expectations. With a deep understanding of design and functionality, he crafted a comprehensive portfolio and an intuitive admin panel that perfectly aligns with our brand. Arjun’s commitment to client satisfaction, attention to detail, and expertise made the project a success. We couldn't be happier with the results.`
+            about: `We hired Arjun to develop our company portfolio, and his work exceeded expectations. With a deep understanding of design and functionality, he crafted a comprehensive portfolio and an intuitive admin panel that perfectly aligns with our brand. Arjun's commitment to client satisfaction, attention to detail, and expertise made the project a success. We couldn't be happier with the results.`
         },
         {
             name: "Rhizicube",
             pic: rhizicube_avatar,
             dateTime: "2022-11-22",
             displayDate: "22 Nov, 2022",
-            about: `As a <b>Software Engineer Intern</b> at Rhizicube, Arjun made a meaningful impact on our team. He contributed extensively to <b>API Development</b> and <b>Testing</b>, showcasing his technical proficiency and dedication to high standards. Arjun’s collaborative skills and proactive approach were a great asset, making him a highly valued member of our team.`
+            about: `As a <b>Software Engineer Intern</b> at Rhizicube, Arjun made a meaningful impact on our team. He contributed extensively to <b>API Development</b> and <b>Testing</b>, showcasing his technical proficiency and dedication to high standards. Arjun's collaborative skills and proactive approach were a great asset, making him a highly valued member of our team.`
         }
     ]
 }
@@ -184,7 +183,7 @@ const ResumeData = {
             skill: ["ReactJS", "ExpressJS", "Rest API", "Gin", "gRPC", "Socket.io", "WebSocket", "Docker"]
         },
         {
-            title: "Tools / Plateform",
+            title: "Tools / Platform",
             skill: ["Postman", "VS Code", "PHPmyAdmin", "Netbeans", "Xampp", "AWS", "Linux"]
         },
         {
@@ -400,4 +399,114 @@ const Project = [
     }
 ];
 
-export { Introduction, SocialAccount, AboutMe, ResumeData, Project }
+const CodingProfiles = [
+    {
+        platform: "LeetCode",
+        username: "mearjuntripathi",
+        link: "https://leetcode.com/mearjuntripathi",
+        color: "#FFA116",
+        totalSolved: 732,
+        rating: 1576,
+        maxRating: 1671,
+        contestsParticipated: 10,
+        globalRank: 241737,
+        breakdown: {
+            easy: { solved: 256, color: "#00b8a3" },
+            medium: { solved: 443, color: "#ffc01e" },
+            hard: { solved: 33, color: "#ff375f" }
+        }
+    },
+    {
+        platform: "HackerRank",
+        username: "mearjuntripathi",
+        link: "https://www.hackerrank.com/mearjuntripathi",
+        color: "#2EC866",
+        totalSolved: 756,
+        badges: ["Problem Solving", "CPP", "Java", "Python", "Days of Code", "SQL", "C Language"],
+        certifications: 4,
+        certificationLinks: [
+            "https://www.hackerrank.com/certificates/dd88f94012d9",
+            "https://www.hackerrank.com/certificates/ad7f9b3ad2e1",
+            "https://www.hackerrank.com/certificates/b78dde45a6f8",
+            "https://www.hackerrank.com/certificates/7fdef080e935"
+        ]
+    },
+    {
+        platform: "CodeChef",
+        username: "isthisarjun",
+        link: "https://www.codechef.com/users/isthisarjun",
+        color: "#5B4638",
+        totalSolved: 529,
+        rating: 1734,
+        maxRating: 1734,
+        contestsParticipated: 37,
+        globalRank: 6237,
+        countryRank: 5599,
+        stars: 3
+    },
+    {
+        platform: "GeeksforGeeks",
+        username: "mearjuntripathi",
+        link: "https://www.geeksforgeeks.org/user/mearjuntripathi",
+        color: "#2F8D46",
+        totalSolved: 514,
+        breakdown: {
+            easy: { solved: 204, color: "#00b8a3" },
+            medium: { solved: 276, color: "#ffc01e" },
+            hard: { solved: 34, color: "#ff375f" }
+        }
+    },
+    {
+        platform: "Codeforces",
+        username: "isthisarjun",
+        link: "https://codeforces.com/profile/isthisarjun",
+        color: "#1890FF",
+        totalSolved: 9,
+        rating: 860,
+        maxRating: 860,
+        contestsParticipated: 3,
+        breakdown: {
+            easy: { solved: 8, color: "#00b8a3" },
+            medium: { solved: 1, color: "#ffc01e" }
+        }
+    }
+];
+
+const ConnectLinks = {
+    github: {
+        label: "GitHub",
+        url: "https://github.com/mearjuntripathi",
+        username: "mearjuntripathi",
+        icon: "logo-github"
+    },
+    linkedin: {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/in/mearjuntripathi/",
+        username: "mearjuntripathi",
+        icon: "logo-linkedin"
+    },
+    twitter: {
+        label: "Twitter / X",
+        url: "https://x.com/mearjuntripathi",
+        username: "@mearjuntripathi",
+        icon: "logo-twitter"
+    },
+    google: {
+        label: "Google Dev",
+        url: "https://g.dev/mearjuntripathi",
+        username: "mearjuntripathi",
+        icon: "logo-google"
+    },
+    resume: {
+        label: "Resume",
+        url: "https://drive.google.com/file/d/1AU0YVDIEhOKu_g-yi-7DXbseyWCpQkl6/view?usp=sharing"
+    },
+    email: {
+        label: "Email",
+        url: "mailto:mearjuntripathi@gmail.com",
+        username: "mearjuntripathi@gmail.com",
+        icon: "mail-outline"
+    }
+}
+
+export { Introduction, SocialAccount, AboutMe, ResumeData, Project, CodingProfiles, ConnectLinks }

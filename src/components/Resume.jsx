@@ -3,64 +3,57 @@ import { TimelineItem, SkillItem } from "./Components";
 
 export default function Resume() {
     return <article className="resume active" data-page="resume">
-
         <header>
             <h2 className="h2 article-title">Resume</h2>
         </header>
 
         <section className="timeline">
-
             <div className="title-wrapper">
                 <div className="icon-box">
-                    <ion-icon name="book-outline"></ion-icon>
+                    <ion-icon name="briefcase-outline"></ion-icon>
                 </div>
-
                 <h3 className="h3">Experience</h3>
             </div>
-
             <ol className="timeline-list">
-
-                {ResumeData.Experience.map((item) => (
-                    <TimelineItem {...item} />
+                {ResumeData.Experience.map((item, index) => (
+                    <TimelineItem key={index} {...item} />
                 ))}
-
             </ol>
-
         </section>
 
         <section className="timeline">
-
             <div className="title-wrapper">
                 <div className="icon-box">
-                    <ion-icon name="book-outline"></ion-icon>
+                    <ion-icon name="school-outline"></ion-icon>
                 </div>
-
                 <h3 className="h3">Education</h3>
             </div>
-
             <ol className="timeline-list">
-
-                {ResumeData.Education.map((item) => (
-                    <TimelineItem {...item} />
+                {ResumeData.Education.map((item, index) => (
+                    <TimelineItem key={index} {...item} />
                 ))}
-
             </ol>
-
         </section>
 
         <section className="skill">
-
-            <h3 className="h3 skills-title">My skills</h3>
-
-            <ul className="skills-list content-card">
-
-                {ResumeData.Skills.map((item) => (
-                    <SkillItem {...item} />
-                ))}
-
-            </ul>
-
+            <h3 className="h3 skills-title">Skills</h3>
+            <div className="terminal-window">
+                <div className="terminal-header">
+                    <div className="terminal-dots">
+                        <span className="terminal-dot red"></span>
+                        <span className="terminal-dot yellow"></span>
+                        <span className="terminal-dot green"></span>
+                    </div>
+                    <span className="terminal-title">package.json — dependencies</span>
+                </div>
+                <div className="terminal-body">
+                    <ul className="skills-list">
+                        {ResumeData.Skills.map((item, index) => (
+                            <SkillItem key={index} {...item} />
+                        ))}
+                    </ul>
+                </div>
+            </div>
         </section>
-
     </article>
 }
