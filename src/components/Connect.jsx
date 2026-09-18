@@ -51,7 +51,7 @@ export default function Connect() {
         if (submitButton) submitButton.disabled = true;
 
         let requestBody = new FormData(contact_form);
-        const scriptURL = process.env.REACT_APP_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbyhGkN-CxqsJK8Z2quntg4hIQqjLTcDVG3ClYSWS7fIAVDg9SthW8hJzH7WTbuCQtW-uw/exec';
+        const scriptURL = process.env.REACT_APP_SCRIPT_URL;
 
         fetch(scriptURL, {
             method: 'POST',
