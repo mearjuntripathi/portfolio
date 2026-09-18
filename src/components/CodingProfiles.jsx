@@ -92,7 +92,7 @@ function ProfileCard({ profile }) {
             <div className="profile-card-body">
                 <div className="profile-stats">
                     <div className="profile-stat">
-                        <div className="profile-stat-value">{profile.totalSolved}</div>
+                        <div className="profile-stat-value">{profile.totalSolved !== undefined ? profile.totalSolved : '...'}</div>
                         <div className="profile-stat-label">Solved</div>
                     </div>
                     {profile.rating && (

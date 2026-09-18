@@ -4,13 +4,10 @@ import dev from "./images/icon-dev.svg";
 import api from "./images/icon-api.svg";
 import cloud from "./images/icon-cloud.svg";
 import project1Image from './images/project-1.png';
-import project2Image from './images/project-2.png';
-import project3Image from './images/project-3.png';
 import project4Image from './images/project-4.png';
 import project5Image from './images/project-5.png';
 import project6Image from './images/project-6.png';
 import project7Image from './images/project-7.png';
-import project8Image from './images/project-8.png';
 import project9Image from './images/project-9.png';
 import project10Image from './images/project-10.png';
 import project11Image from './images/project-11.png';
@@ -19,10 +16,9 @@ import project13Image from './images/project-13.png';
 import project14Image from './images/project-14.png';
 import project15Image from './images/project-15.png';
 import project16Image from './images/project-16.png';
-import project17Image from './images/project-17.png';
 import project18Image from './images/project-18.png';
 import project19Image from './images/project-19.png';
-const finofield_avatar = 'https://www.finofield.com/assets/img/logo/loder.png';
+const finofield_avatar = 'https://finofield.com/assets/logo-BO-rLWNb.png';
 const gu_avatar = 'https://galgotiacollege.edu//public/uploads/all/2/PSf8vV9pdHjUb5MhnGpG1hiiJ9Y0c8YYgSAk54Q3.png'
 const cu_avatar = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIvdkDsEN0-BB5WdM3CfdnaxE5O4FDSEioQ&s';
 const rhizicube_avatar = 'https://static.wixstatic.com/media/59608f_e7489f65315d4dc9be121b7dc56d9302~mv2.jpg/v1/fill/w_81,h_81,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/White-Insta-profile-image.jpg'
@@ -197,7 +193,7 @@ const Project = [
     {
         title: "Coding Profile Service (Go + GraphQL)",
         pic: project19Image,
-        link: "https://coding-profile-service.onrender.com/stats",
+        link: "https://https://coding-profile-service-v2-0.onrender.com/",
         codeLink: "https://github.com/mearjuntripathi/coding-profile-service",
         category: "apis",
         skills: ["Go", "GraphQL", "Docker", "goquery", "net/http", "gqlgen"],
@@ -249,24 +245,6 @@ const Project = [
         description: `A chat application using Node.js, Express, and Socket.IO. Users can join a chat room, send messages to all users, or send private messages.`
     },
     {
-        title: "Chat ON",
-        pic: project2Image,
-        link: "https://greatchatson.000webhostapp.com/",
-        codeLink: 'https://github.com/mearjuntripathi/PHP/tree/main/chat_on',
-        category: "web development",
-        skills: ["PHP", "MySQL", "jQuery"],
-        description: `A chat website built without Socket.IO, using PHP, MySQL, and jQuery for real-time communication.`
-    },
-    {
-        title: "ChatBot",
-        pic: project3Image,
-        link: "https://mearjuntripathi.github.io/chatbot/",
-        codeLink: 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/chatbot',
-        category: "web development",
-        skills: ["JavaScript", "OpenAI API", "AJAX"],
-        description: `ChatBot leverages the OpenAI API to access ChatGPT. It has a terminal interface for requests via AJAX using JavaScript.`
-    },
-    {
         title: "DORA",
         pic: project4Image,
         link: "https://mearjuntripathi.github.io/dora/",
@@ -301,15 +279,6 @@ const Project = [
         category: "web development",
         skills: ["JavaScript", "PDF.js"],
         description: `Converts images to PDF files using JavaScript and PDF.js for simple image-to-document transformations.`
-    },
-    {
-        title: "To-Do List",
-        pic: project8Image,
-        link: "https://mearjuntripathi.github.io/TO-DO%20list/",
-        codeLink: 'https://github.com/mearjuntripathi/mearjuntripathi.github.io/tree/main/TO-DO%20list',
-        category: "web development",
-        skills: ["HTML", "CSS", "JavaScript"],
-        description: `A basic To-Do list application that allows users to add, delete, and manage tasks.`
     },
     {
         title: "Tic Tac Toe",
@@ -372,15 +341,6 @@ const Project = [
         description: `A dummy admin panel built with HTML, CSS, and JavaScript featuring layout design and icons from IconScout.`
     },
     {
-        title: "Dinesh Rana Enterprises",
-        pic: project17Image,
-        link: "http://dineshranaenterprises.in/",
-        codeLink: "https://github.com/rahuldurgapal/Interior-Project",
-        category: "web development",
-        skills: ["PHP", "MySQL", "SEO"],
-        description: `A freelancing project involving SEO optimization, PHP, MySQL, and a customized admin panel with authentication.`
-    },
-    {
         title: "Book Management API",
         pic: project15Image,
         codeLink: "https://github.com/mearjuntripathi/book-management-api/",
@@ -404,71 +364,31 @@ const CodingProfiles = [
         platform: "LeetCode",
         username: "mearjuntripathi",
         link: "https://leetcode.com/mearjuntripathi",
-        color: "#FFA116",
-        totalSolved: 732,
-        rating: 1576,
-        maxRating: 1671,
-        contestsParticipated: 10,
-        globalRank: 241737,
-        breakdown: {
-            easy: { solved: 256, color: "#00b8a3" },
-            medium: { solved: 443, color: "#ffc01e" },
-            hard: { solved: 33, color: "#ff375f" }
-        }
+        color: "#FFA116"
     },
     {
         platform: "HackerRank",
         username: "mearjuntripathi",
         link: "https://www.hackerrank.com/mearjuntripathi",
-        color: "#2EC866",
-        totalSolved: 756,
-        badges: ["Problem Solving", "CPP", "Java", "Python", "Days of Code", "SQL", "C Language"],
-        certifications: 4,
-        certificationLinks: [
-            "https://www.hackerrank.com/certificates/dd88f94012d9",
-            "https://www.hackerrank.com/certificates/ad7f9b3ad2e1",
-            "https://www.hackerrank.com/certificates/b78dde45a6f8",
-            "https://www.hackerrank.com/certificates/7fdef080e935"
-        ]
+        color: "#2EC866"
     },
     {
         platform: "CodeChef",
         username: "isthisarjun",
         link: "https://www.codechef.com/users/isthisarjun",
-        color: "#5B4638",
-        totalSolved: 529,
-        rating: 1734,
-        maxRating: 1734,
-        contestsParticipated: 37,
-        globalRank: 6237,
-        countryRank: 5599,
-        stars: 3
+        color: "#5B4638"
     },
     {
         platform: "GeeksforGeeks",
         username: "mearjuntripathi",
         link: "https://www.geeksforgeeks.org/user/mearjuntripathi",
-        color: "#2F8D46",
-        totalSolved: 514,
-        breakdown: {
-            easy: { solved: 204, color: "#00b8a3" },
-            medium: { solved: 276, color: "#ffc01e" },
-            hard: { solved: 34, color: "#ff375f" }
-        }
+        color: "#2F8D46"
     },
     {
         platform: "Codeforces",
         username: "isthisarjun",
         link: "https://codeforces.com/profile/isthisarjun",
-        color: "#1890FF",
-        totalSolved: 9,
-        rating: 860,
-        maxRating: 860,
-        contestsParticipated: 3,
-        breakdown: {
-            easy: { solved: 8, color: "#00b8a3" },
-            medium: { solved: 1, color: "#ffc01e" }
-        }
+        color: "#1890FF"
     }
 ];
 
