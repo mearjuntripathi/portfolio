@@ -218,8 +218,8 @@ export default function CodingProfiles() {
 
             setSyncStatus("syncing");
 
-            const statsApiUrl = process.env.REACT_APP_STATS_API_URL ||
-                "https://coding-profile-service-v2-0.onrender.com/stats?leetcode=mearjuntripathi&codechef=isthisarjun&gfg=mearjuntripathi&hackerrank=mearjuntripathi&codeforces=isthisarjun";
+            const statsApiUrl = process.env.REACT_APP_STATS_API_URL;
+            if (!statsApiUrl) return;
 
             try {
                 const response = await fetch(statsApiUrl);
